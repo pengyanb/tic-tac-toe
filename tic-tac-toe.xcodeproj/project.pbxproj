@@ -97,12 +97,11 @@
 		B8EBB6C91D100521008C22B4 /* tic-tac-toe */ = {
 			isa = PBXGroup;
 			children = (
-				B8EBB6CA1D100521008C22B4 /* AppDelegate.swift */,
+				B8EBB6FD1D101356008C22B4 /* Supporting Files */,
+				B8EBB6FC1D10134B008C22B4 /* Model */,
+				B8EBB6FB1D10133F008C22B4 /* Controller */,
+				B8EBB6FA1D10133A008C22B4 /* View */,
 				B8EBB6CE1D100521008C22B4 /* Main.storyboard */,
-				B8EBB6D11D100521008C22B4 /* Assets.xcassets */,
-				B8EBB6D31D100521008C22B4 /* LaunchScreen.storyboard */,
-				B8EBB6D61D100521008C22B4 /* Info.plist */,
-				B8EBB6F81D1008C6008C22B4 /* TTTViewController.swift */,
 			);
 			path = "tic-tac-toe";
 			sourceTree = "<group>";
@@ -123,6 +122,39 @@
 				B8EBB6EC1D100521008C22B4 /* Info.plist */,
 			);
 			path = "tic-tac-toeUITests";
+			sourceTree = "<group>";
+		};
+		B8EBB6FA1D10133A008C22B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B8EBB6FB1D10133F008C22B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8EBB6F81D1008C6008C22B4 /* TTTViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B8EBB6FC1D10134B008C22B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B8EBB6FD1D101356008C22B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8EBB6CA1D100521008C22B4 /* AppDelegate.swift */,
+				B8EBB6D31D100521008C22B4 /* LaunchScreen.storyboard */,
+				B8EBB6D61D100521008C22B4 /* Info.plist */,
+				B8EBB6D11D100521008C22B4 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
